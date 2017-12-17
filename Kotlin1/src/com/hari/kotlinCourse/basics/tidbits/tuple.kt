@@ -10,13 +10,19 @@ fun capitalStatePopulation(state : String): Triple<String, String, Long>{
 }
 fun main(args: Array<String>) {
 
-    val pairTest = capitalAndPopulation("india")
-    println(pairTest.first)
-    println(pairTest.second)
+//    val pairTest = capitalAndPopulation("india")
+//    println(pairTest.first)
+//    println(pairTest.second)
 
     val tripleTest = capitalStatePopulation("india")
-    println(tripleTest.first)
-    println(tripleTest.second)
-    println(tripleTest.third)
+//    println(tripleTest.first)
+//    println(tripleTest.second)
+//    println(tripleTest.third)
+
+    val (country, state, population) = capitalStatePopulation("Andhra Pradesh")
+
+    println(country)
+    println(state)
+    println(population)
 
 }
